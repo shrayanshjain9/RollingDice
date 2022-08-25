@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(25, 25, 66);   
+}
+
+.center-div {
+    text-align: center;
+    font-family: Lobster;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin: 5% 10%;
+    margin-bottom: 0px;
+}
+
+.refresh-heading {
+    margin-bottom: 3%;
+    font-size: 4rem;
+}
+
+.player-heading {
+    display: inline-block;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 2rem;
+    margin: 2% 6.5%;
+}
+
+.image-box {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    width: 12%;
+    margin: 0 5%;
+    /* text-align: center; */
+}
+
+.footer-details {
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+    margin-top: 3%;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.button {
+    background-color: #e13535;
+    border: none;
+    border-radius: 7%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Lobster;
+    margin: 3% 2px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #cc0f0f;
+  }
