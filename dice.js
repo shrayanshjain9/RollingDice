@@ -6,10 +6,10 @@ function rollingDice() {
     document.getElementsByClassName("dice-2")[0].setAttribute("src","images/dice"+ran2+".png");
     // var playerOneDice = document.getElementsByClassName(dice-1);
     
-    let imgPath1 = document.getElementsByClassName("dice-1")[0].getAttribute("src");
-    let imgPath2 = document.getElementsByClassName("dice-2")[0].getAttribute("src");
-    let diceNum1= imgPath1.substring(11,12);
-    let diceNum2= imgPath2.substring(11,12);
+    // let imgPath1 = document.getElementsByClassName("dice-1")[0].getAttribute("src");
+    // let imgPath2 = document.getElementsByClassName("dice-2")[0].getAttribute("src");
+    let diceNum1= ran1;//imgPath1.substring(11,12);
+    let diceNum2= ran2;//imgPath2.substring(11,12);
 
     if(diceNum1 > diceNum2) {
         document.getElementsByClassName("refresh-heading")[0].innerText="🎉 Player 1 Won";
